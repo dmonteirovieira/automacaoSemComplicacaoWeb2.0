@@ -40,4 +40,13 @@ public class testeWeb {
 
         assertEquals("Porque Tempo É Conhecimento", titulo);
     }
+
+    @Test
+    public void segundoTest(){
+        String xpathBotao = "//section[2]/div[3]//a";
+
+        WebElement btnTitulo = driver.findElement(By.xpath(xpathBotao));
+        btnTitulo.click();
+        String xpathTituloh
+    }
 }
